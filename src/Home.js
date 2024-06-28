@@ -67,6 +67,7 @@ const HomePage = () => {
       }
     } else {
       if (page <= 3) {
+        
         pages.push(1, 2, 3, 4, '...', totalPages);
       } else if (page >= totalPages - 2) {
         pages.push(1, '...', totalPages - 4, totalPages - 3, totalPages - 2, totalPages - 1, totalPages);
